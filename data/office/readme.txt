@@ -6,7 +6,7 @@ F. Devernay, S. Pujades and V. Ch.A.V., ``Focus mismatch detection in stereoscop
 
 
 Properties:
-- patio_stereo1 & patio_stereo2
+- office_stereo1 & office_stereo2
     - diameter near & far = 0.20
     - diameter far2 &  near2 = 0.40
     - focal length = 22
