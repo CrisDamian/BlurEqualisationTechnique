@@ -1,0 +1,13 @@
+output_name   = '/home/prima/devernay/povray/office/office-left/office_stereo1.png' ;
+screen_height = 720 ;
+screen_width  = 1080 ;
+cam_type      = 'perspective' ;
+cam_pos       = [  227.0148        468  -352.6625]' ;
+cam_dir       = [ -1.834381 -0.3253444    2.09038]' ;
+cam_up        = [-0.1856178   2.383744  0.2081169]' ;
+cam_right     = [  2.686664          0   2.396213]' ;
+cam_sky       = [         0          1          0]' ;
+cam_lookat    = [         0          0          1]' ;
+cam_fpoint    = [      -100        110         20]' ;
+cam_focal     = 611.539 ;
+cam_angle     =      90 ;

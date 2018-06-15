@@ -1,0 +1,13 @@
+output_name   = '/home/prima/devernay/povray/patio/patio-right/patio_stereo2_megapov.png' ;
+screen_height = 864 ;
+screen_width  = 1152 ;
+cam_type      = 'perspective' ;
+cam_pos       = [  203.7808        165  -548.6939]' ;
+cam_dir       = [ -0.845827 0.01288879    2.35274]' ;
+cam_up        = [0.004040112   2.399968 -0.01169506]' ;
+cam_right     = [  3.024609          0   1.044865]' ;
+cam_sky       = [         0          1          0]' ;
+cam_lookat    = [         0          0          1]' ;
+cam_fpoint    = [         0          0          1]' ;
+cam_focal     =       1 ;
+cam_angle     =      90 ;
