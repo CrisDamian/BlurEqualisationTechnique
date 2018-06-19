@@ -9,7 +9,7 @@ Properties:
 - office_stereo1 & office_stereo2
     - diameter near & far = 5
     - diameter far2 &  near2 = 10
-    - focal length = 2.5
+    - focal length = 2.8
     - focus near = 267
     - focus far =  534
-    - pixel pitch = 0.00556
+    - pixel pitch = 0.00625

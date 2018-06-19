@@ -34,13 +34,13 @@ from depth_bet import depth_bet
 
 # Office
 
-near_cam = Camera(focal_length = 2.5,
-                 f_stop = 2.5/10,
-                 pixel_pitch =5.56e-3,
+near_cam = Camera(focal_length = 2.8,
+                 f_stop = 2.8/10,
+                 pixel_pitch =6.25e-3,
                  focus = 267) 
-far_cam = Camera(focal_length = 2.5,
-                 f_stop = 2.5/10,
-                 pixel_pitch = 5.56e-3,
+far_cam = Camera(focal_length = 2.8,
+                 f_stop = 2.8/10,
+                 pixel_pitch = 6.256e-3,
                  focus = 534)
 
 min_depth = 150
