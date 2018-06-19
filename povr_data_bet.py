@@ -13,44 +13,44 @@ from depth_bet import depth_bet
 
 # Patio
 
-near_cam = Camera(focal_length = 2.5,
-                 f_stop = 2.5/10,
-                 pixel_pitch = 5.56e-3,
-                 focus = 584) 
-far_cam = Camera(focal_length = 2.5,
-                 f_stop = 2.5/10,
-                 pixel_pitch = 5.56e-3,
-                 focus = 970)
-
-min_depth = 200
-max_depth = 1500
-
-folder = r"data/patio/patio_stereo2/"  
-near_file = "patio_stereo2_near2.png"
-far_file = "patio_stereo2_far2.png"
-all_file = "patio_stereo2_all.png"
-depth_file = "patio_stereo2.depth.npy"
+#near_cam = Camera(focal_length = 2.5,
+#                 f_stop = 2.5/10,
+#                 pixel_pitch = 5.56e-3,
+#                 focus = 584) 
+#far_cam = Camera(focal_length = 2.5,
+#                 f_stop = 2.5/10,
+#                 pixel_pitch = 5.56e-3,
+#                 focus = 970)
+#
+#min_depth = 200
+#max_depth = 1500
+#
+#folder = r"data/patio/patio_stereo2/"  
+#near_file = "patio_stereo2_near2.png"
+#far_file = "patio_stereo2_far2.png"
+#all_file = "patio_stereo2_all.png"
+#depth_file = "patio_stereo2.depth.npy"
 
 
 # Office
 
-#near_cam = Camera(focal_length = 22,
-#                 f_stop = 22/0.40,
-#                 pixel_pitch = 0.0028121,
-#                 focus = 267) 
-#far_cam = Camera(focal_length = 22,
-#                 f_stop = 22/0.40,
-#                 pixel_pitch = 0.0028121,
-#                 focus = 534)
-#
-#min_depth = 150
-#max_depth = 850
-#
-#folder = r"data/office/office_stereo2/"  
-#near_file = "office_stereo2_near2.png"
-#far_file = "office_stereo2_far2.png"
-#all_file = "office_stereo2_all.png"
-#depth_file = "office_stereo2.depth.npy"
+near_cam = Camera(focal_length = 2.5,
+                 f_stop = 2.5/10,
+                 pixel_pitch =5.56e-3,
+                 focus = 267) 
+far_cam = Camera(focal_length = 2.5,
+                 f_stop = 2.5/10,
+                 pixel_pitch = 5.56e-3,
+                 focus = 534)
+
+min_depth = 150
+max_depth = 850
+
+folder = r"data/office/office_stereo2/"  
+near_file = "office_stereo2_near2.png"
+far_file = "office_stereo2_far2.png"
+all_file = "office_stereo2_all.png"
+depth_file = "office_stereo2.depth.npy"
 
 
 

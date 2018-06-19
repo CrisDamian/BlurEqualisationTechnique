@@ -7,12 +7,9 @@ F. Devernay, S. Pujades and V. Ch.A.V., ``Focus mismatch detection in stereoscop
 
 Properties:
 - office_stereo1 & office_stereo2
-    - diameter near & far = 0.20
-    - diameter far2 &  near2 = 0.40
-    - focal length = 22
+    - diameter near & far = 5
+    - diameter far2 &  near2 = 10
+    - focal length = 2.5
     - focus near = 267
     - focus far =  534
-    - pixel pitch = 0.0028121
-    - image distance = 1
-    
-The properties where found using mostly guesswork so the may be wrong.
+    - pixel pitch = 0.00556
