@@ -121,6 +121,12 @@ plt.colorbar()
 
 #%%
 
+good_est= np.zeros(all_im.shape +(4,));
+good_est[:,:,1] = 1;
+good_est[:,:,3]= (true_map == rdmap);
+
 plt.figure('Map of good estimates').clear()
-plt.imshow(true_depth*(true_map == rdmap), vmax=max_depth)
+plt.imshow(all_im)
 plt.colorbar()
+plt.imshow(good_est)
+
