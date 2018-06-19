@@ -9,10 +9,8 @@ Properties:
 - patio_stereo1 & patio_stereo2
     - diameter near & far = 0.20
     - diameter far2 &  near2 = 0.40
-    - focal length = 22
+    - focal length = 2.5
     - focus near = 584
     - focus far =  927
-    - pixel pitch = 0.0028121
-    - image distance = 1
+    - pixel pitch = 0.00556
     
-The properties where found using mostly guesswork so the may be wrong.

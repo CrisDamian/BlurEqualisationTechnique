@@ -13,13 +13,13 @@ from depth_bet import depth_bet
 
 # Patio
 
-near_cam = Camera(focal_length = 22,
-                 f_stop = 22/0.40,
-                 pixel_pitch = 0.0028121,
+near_cam = Camera(focal_length = 2.5,
+                 f_stop = 2.5/10,
+                 pixel_pitch = 5.56e-3,
                  focus = 584) 
-far_cam = Camera(focal_length = 22,
-                 f_stop = 22/0.40,
-                 pixel_pitch = 0.0028121,
+far_cam = Camera(focal_length = 2.5,
+                 f_stop = 2.5/10,
+                 pixel_pitch = 5.56e-3,
                  focus = 970)
 
 min_depth = 200
@@ -117,4 +117,10 @@ for i, j in zip(true_map.flat, rdmap.flat):
     
 plt.figure("Confusion for raw map").clear()
 plt.imshow(h, vmin=0)
+plt.colorbar()
+
+#%%
+
+plt.figure('Map of good estimates').clear()
+plt.imshow(true_depth*(true_map == rdmap), vmax=max_depth)
 plt.colorbar()
