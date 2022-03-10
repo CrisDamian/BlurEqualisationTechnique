@@ -1,3 +1,4 @@
+© Copyright 2012 Jaime Vives Piqueres
 
 Dataset avaliable at:<http://devernay.free.fr/vision/focus/office/>
 
